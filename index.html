@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=320px, initial-scale=1">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
 <title>responsive-website</title>
 </head>
 <body>
+  <div class="container">
     <header>
       <h1 class="name">Andrew Litten</h1>
         <nav>
@@ -24,7 +25,7 @@
         <p>Hello! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
     </div>
     <div class="wrapper">
-        <h2 class="portfolio">Portfolio</h2>
+        <h2 class="portfolio" id="portfolio">Portfolio</h2>
             <article class="projects">
                 <img src="images/portfolio-1.png" alt="marketing picture">
                 <h2>Marketing Page</h2>
@@ -57,7 +58,7 @@
             </article>
         </div>
     <div class="wrapper">
-        <article class="skills">
+        <article class="skills" id="skills">
             <h2>Skills</h2>
             <p>The programming languages used in my portfolio includes the following:</p>
             <ul class="skills_list">
@@ -68,7 +69,7 @@
         </article>
     </div>
     <div class="contact">
-        <h2 class="contact-title">Contact</h2>
+        <h2 class="contact-title" id="contact">Contact</h2>
             <p>If you are interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
             <p id="phone">Phone <span class="contact_info">+1 (714)398-2703</span></p>
             <p>Email <span class="contact_info">andrew.litten@gmail.com</span></p>
@@ -85,5 +86,6 @@
             </ul>
         </nav>
     </footer>
+  </div>
 </body>
 </html>
