@@ -9,6 +9,7 @@ body {
 }
 .container {
   width: 95%;
+  margin: auto;
 }
 .wrapper {
     padding: 5px 0;
@@ -25,7 +26,7 @@ ul {
 
 .main_nav li {
     list-style-type: none;
-    background-color: white;
+    background-color: whitesmoke;
     margin-bottom: 4px;
     padding: 20px;
     text-transform: uppercase;
@@ -33,7 +34,9 @@ ul {
     font-weight: bold;
 
 }
-
+  .main-section {
+    width: 95%;
+  }
 a:link {
     color: black;
     text-decoration: none;
@@ -133,6 +136,9 @@ footer p a:visited {
         display: flex;
         flex-direction: row-reverse;
         padding: 40px 0px;
+        margin: 0 40px;
+
+
 }
 
     .main_section p {
@@ -150,7 +156,7 @@ footer p a:visited {
     .projects {
         float: left;
         max-width: 44%;
-        margin: auto
+        margin: auto;
     }
 
     .projects:nth-child(odd) {
@@ -200,6 +206,7 @@ footer p a:visited {
     .footer_nav a:visited {
         color: black;
     }
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -220,7 +227,8 @@ footer p a:visited {
 
     .main_nav {
         font-size: 18px;
-        margin: initial;
+        margin: center;
+        width: 95%;
     }
 
     .main_section p {
