@@ -68,7 +68,9 @@ h2 {
 img {
     width: 100%;
 }
-
+.projects {
+  min-height: 450px;
+}
 .skills {
     border-top: 10px solid #78a164;
     width: 100%;
